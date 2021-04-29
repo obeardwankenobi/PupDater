@@ -1,12 +1,12 @@
 {
   "name": "auto-updater",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --publish never",
-    "deploy": "electron-builder build --publish always",
+    "build": "electron-builder build --armv7l --linux --publish never",
+    "deploy": "electron-builder build --armv7l --linux --publish always",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
